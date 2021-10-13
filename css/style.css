@@ -157,15 +157,19 @@ a:hover {
 }
 
 .home_movil img.hombre {
-    width: 280px;
+    width: 500px;
     position: absolute;
     bottom: 0;
     right: -100px;
 }
 
 .cel_movil {
-    background: #ece3e1;
+    /* background: #ece3e1; */
     position: relative;
+    background-image: url(../images/Chica_movile.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
 }
 
 .cel_movil img.chica_movil {
@@ -175,33 +179,33 @@ a:hover {
 }
 
 .cel_movil .rotate_one {
-    display: flex;
     padding: 1rem;
 }
 
 .cel_movil .rotate_one p {
-    writing-mode: vertical-lr;
+    /* writing-mode: vertical-lr; */
     display: block;
     margin: 0;
     position: relative;
+    color: #fff;
 }
 
-.cel_movil .rotate_one p:nth-of-type(1)::after {
+.cel_movil .rotate_one p:nth-of-type(3)::after {
     content: '';
     display: block;
-    height: 100%;
-    width: 2px;
+    height: 2px;
+    width: 70px;
     position: absolute;
-    background: #000;
-    top: 0;
-    left: -5px;
+    background: #fff;
+    bottom: -8px;
+    left: 0;
 }
 
 .cel_movil .box_red {
     position: absolute;
-    width: 30%;
-    height: 300px;
-    top: calc(50% - 150px);
+    width: 70%;
+    height: 100px;
+    top: calc(50% - 50px);
     right: 0;
     display: flex;
     justify-content: center;
@@ -211,7 +215,7 @@ a:hover {
 }
 
 .cel_movil .box_red p {
-    writing-mode: vertical-rl;
+    /* writing-mode: vertical-rl; */
     display: block;
     margin: 0;
     color: #fff;
@@ -466,6 +470,18 @@ a:hover {
 .footer_movil {
     background: #000;
     color: #fff;
+}
+
+.footer_movil .redes {
+    background: #be3042;
+}
+
+.footer_movil .redes img {
+    width: 40px;
+}
+
+.footer_movil .redes p {
+    font-size: 16px;
 }
 
 /* .border-image {

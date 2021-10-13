@@ -22,10 +22,10 @@ $(window).scroll(function () {
     let header = $(".navbar");
     if ($(".navbar").offset().top > 400) {
         $(header).css("background", "#fff");
-        $('.navbar img').fadeIn();
+        // $('.navbar img').fadeIn();
     } else {
         // $(".navbar").addClass("navbar-expand-lg");
         $(header).css("background", "transparent");
-        $('.navbar img').fadeOut()
+        // $('.navbar img').fadeOut()
     }
 });
